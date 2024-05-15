@@ -13,7 +13,7 @@
         li {
             color: #ECECEC;
             height: 100%;
-            padding: 0.2rem 0.8rem;
+            padding: 0.2rem 1rem;
             cursor: pointer;
         }
 
@@ -22,5 +22,7 @@
             border-top-left-radius: 7px;
             border-top-right-radius: 7px;
         }
-}
+    }
+
+
 }

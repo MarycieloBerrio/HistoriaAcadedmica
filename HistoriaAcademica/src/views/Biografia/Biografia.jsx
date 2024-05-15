@@ -1,8 +1,14 @@
 import React from 'react'
+import "./Biografia.css"
 
 const Biografia = () => {
   return (
-    <div>Biografia</div>
+    <div className='bio-container'>
+      <article>
+        <h1>Biografía</h1>
+        <p>X</p>
+      </article>
+    </div>
   )
 }
 

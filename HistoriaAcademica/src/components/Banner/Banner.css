@@ -1,8 +1,8 @@
-
 .banner-container {
     display: flex;
     img {
         max-height: 100%;
         width: 100%;
+        margin: 0;
     }
 }
