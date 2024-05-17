@@ -51,7 +51,7 @@ const Biografia = () => {
         <h3>Publicaciones recientes</h3>
         <ul>
           <li>
-            {/*Mensage para mary xd, cada publicación debería ser un componente idealmente, pero por temas de tiempo, lo pongo así (al igual que cada article)*/}
+            {/*Cada publicación debería ser un componente idealmente, al igual que cada article*/}
             <div className="publicacion">
               <div className="header-pub">
                 <h4>Titulo de la publicación</h4>
