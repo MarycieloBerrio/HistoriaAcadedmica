@@ -26,7 +26,7 @@ const Trayectoria = () => {
             <h2 className="title-article">Experiencia administrativa</h2>
             <hr />
           </div>
-          <ul className="premios">
+          <ul className="lista">
             <li>Premio al Mérito Académico en Pociones Avanzadas</li>
             <li>Medalla de Honor del Consejo de Maestros de Hogwarts</li>
             <li>Premio de Investigación en Artes Mágicas</li>

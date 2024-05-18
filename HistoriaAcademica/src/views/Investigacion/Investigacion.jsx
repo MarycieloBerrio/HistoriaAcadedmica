@@ -10,16 +10,12 @@ const Investigacion = () => {
             <h2 className="title-article">Áreas de investigación</h2>
             <hr />
           </div>
-          <p>
-            El Profesor Severus Snape, con una amplia experiencia en el campo de
-            las pociones, es actualmente Profesor Asociado en la Facultad de
-            Minas de la UNAL. Posee un Doctorado en Pociones de la Universidad
-            de Ginebra y una Licenciatura en Humanidades Clásicas de Oxford.
-            Previamente, ocupó el cargo de Becario de Desarrollo de Carrera en
-            Pociones en la misma institución. Su dedicación a la enseñanza y su
-            destacada investigación lo convierten en un referente en el campo de
-            las artes mágicas.
-          </p>
+          <ul className="lista">
+            <li>Alquimia y preparación de pociones avanzadas.</li>
+            <li>Efectos mágicos de ingredientes naturales.</li>
+            <li>Aplicaciones médicas de la alquimia.</li>
+            <li>Historia y desarrollo de las artes mágicas.</li>
+          </ul>
         </article>
         <article className="inv-article">
           <div className="header-article">
@@ -27,9 +23,16 @@ const Investigacion = () => {
             <hr />
           </div>
           <ul className="lista">
-            <li>Premio al Mérito Académico en Pociones Avanzadas</li>
-            <li>Medalla de Honor del Consejo de Maestros de Hogwarts</li>
-            <li>Premio de Investigación en Artes Mágicas</li>
+            <li>Desarrollo de una Poción Estimulante del Crecimiento 
+              para Plantas Mágicas: Investigación sobre la creación 
+              de una poción que mejore el crecimiento y la salud de 
+              las plantas mágicas, con aplicaciones en herbología y 
+              jardinería mágica.</li>
+            <li>Elaboración de Pociones Antídoto para Venenos Mágicos: 
+              Estudio sobre la eficacia de diferentes ingredientes en 
+              la preparación de pociones antídoto para una variedad de 
+              venenos mágicos, con implicaciones en la medicina mágica 
+              y la defensa contra las artes oscuras.</li>
           </ul>
         </article>
         <article className="inv-article">
@@ -37,14 +40,17 @@ const Investigacion = () => {
             <h2 className="title-article">Eventos</h2>
             <hr />
           </div>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam congue
-            ante ut fringilla cursus. Vivamus eu egestas ante. In quis velit
-            congue, tincidunt tellus a, laoreet erat. Cras congue blandit
-            tempor. Praesent et elit scelerisque, fermentum risus ac, egestas
-            massa. Quisque laoreet eros arcu, sit amet pretium justo convallis
-            sit amet. Morbi mollis eget est in elementum.
-          </p>
+          <ul className="lista">
+            <li>2022: Conferencia Internacional de Pociones Avanzadas, 
+              Hogwarts - Nuevos descubrimientos en el uso de la raíz 
+              de asfódelo</li>
+            <li>2016: Congreso de Botánica Mágica y Pociones, Herbología
+              - Integración de plantas mágicas en pociones para la 
+              curación</li>
+            <li>2008: Exposición Anual de Innovaciones en Pociones, 
+              Diagon Alley - Avances recientes en equipamiento para 
+              pociones</li>
+          </ul>
         </article>
       </div>
 
